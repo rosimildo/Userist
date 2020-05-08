@@ -14,6 +14,7 @@ func init() {
 }
 
 func main() {
+        log.Info( "Server Starting" )
 	rest.Serve()
 }
 
